@@ -1,6 +1,4 @@
 # Security Policy
-
+Contact Authors personal email at HansaPilsner@tutamail.com
 ## Supported Versions
-All current versions.
-
-Please contact my personal email HansaPilsner@tutamail.com
+Pre-Release version .1
