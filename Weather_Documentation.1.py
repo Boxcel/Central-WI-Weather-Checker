@@ -1,18 +1,11 @@
-import requests
+import random
+import datetime
+import time
+import dataclasses
 
-Weather = ['Clear', 'Cloudy', 'foggy', 'Raniny', 'thunder', 'Snowy', 'Windy']
-def get_weather(api_key, location):
-    location = 'Eau Claire'
-    url = f"http://api.openweathermap.org/data/2.5/weather?q={location}&appid={api_key}&units=metric"
-    response = requests.get(url)
-    data = response.json()
-    if response.status_code == 200:
-        weather_description = data['weather'][0]['description']
-        return weather_description
-    else:
-        return "Error fetching weather data"
+Weather = ['Clear',"Cloudy", "Overcast", "Foggy", "Rain", "Snow"]
 
-api_key = 'your_api_key_here'
-location = 'your_location_here'
-current_weather = get_weather(api_key, location)
-print(f"The current weather in {location} is: {current_weather}")
+Complex_Weather = ['Wind Chill', 'Ice', 'Sleet', 'Freezing Rain', 'Freezing Drizzle', 'Freezing Fog', 'Blowing Snow', 'Hail',]
+Variables =['Light', 'Moderate', 'Heavy', 'Severe']
+Complex_Variables = ['Patchy', 'Intermittent', 'Continuous', 'Occasional', 'Periods of', 'Showers', 'Drizzle', 'Flurries', 'Squalls', 'Thundershowers']
+Extreme_Weather = ['Tornado', 'Hurricane', 'Blizzard', 'Flood', 'Drought', 'Heatwave', 'Coldwave', 'Thunderstorm', 'Hailstorm', 'Tsunami', "earthquake"]
