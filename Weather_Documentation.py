@@ -28,6 +28,6 @@ input("What month is it?: ")
 input("What day is it?: ")
 input("What season is it?: ")
 input("What time of day is it?: ")
-input(print("You have enterted the following data:") repeat given input from line 26 to 30) #First ( is currently not working.
+input("You have enterted the following data:" repeat given input from line 26 to 30)
 #Complex user data.
 #Complex weather conditions user data
