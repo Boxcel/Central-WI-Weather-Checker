@@ -29,6 +29,13 @@ day = input("What day is it?: ")
 season = input("What season is it?: ")
 time_of_day = input("What time of day is it?: ")
 print(f"You have entered the following data: Year: {year}, Month: {month}, Day: {day}, Season: {season}, Time of day: {time_of_day}")
-#Complex user data.
-input("")
+#Weather input data.
+print("Weather conditions available:", Weather)
+weather = input("What is your weather like?: ")
+print("Wind conditions available:", Wind)
+wind = input("What is the wind speed like?: ")
+print("Temperature conditions available:", Temperature)
+temperature = input("What is your current temperature?: ")
+print(f"You have entered the following weather data: Weather: {weather}, Wind: {wind}, Temperature: {temperature}")
+#Complex weather conditions user data
 #Complex weather conditions user data
