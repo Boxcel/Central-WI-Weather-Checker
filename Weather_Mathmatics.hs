@@ -31,3 +31,7 @@ main = do
     let matrixA = [[1, 2, 3], [4, 5, 6]]
         matrixB = [[7, 8], [9, 10], [11, 12]]
     print $ matrixMultiply matrixA matrixB
+
+    putStrLn "Hello, world"
+    putStrLn "This is my first code in Haskell"
+    putStrLn "I am learning Haskell"
