@@ -51,4 +51,3 @@ func main() {
 	fmt.Printf("Exp(3+4i): %v\n", cmplxExp)
 	fmt.Printf("Log(3+4i): %v\n", cmplxLog)
 }
-
